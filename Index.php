@@ -11,15 +11,15 @@
 <body>
 
     <?php
-    include ('Header.php')
+    include ('header.php')
         ?>
 
-    <div class="">
+    <div class="film">
         <P>Leeg</P>
     </div>
 
     <?php
-    include ('Footer.php')
+    include ('footer.php')
         ?>
 
 </body>
