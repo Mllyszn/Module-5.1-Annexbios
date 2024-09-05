@@ -11,15 +11,21 @@
 <body>
 
     <?php
-    include ('header.php')
+    include('header.php')
         ?>
 
-    <div class="film">
-        <P>Leeg</P>
+    <div class="fullpage">
+        <div class="ticketbestelling">
+            <h2>Koop Je Tickets</h2>
+        </div>
+
+        <div class="inleiding">
+            <h3>Welkom bij Annexbios Woerden</h3>
+        </div>
     </div>
 
     <?php
-    include ('footer.php')
+    include('footer.php')
         ?>
 
 </body>

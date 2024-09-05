@@ -1,8 +1,29 @@
-header{
-    height: 100px;
-    background-color: whitesmoke;
+header {
+  height: 100px;
+  background-color: whitesmoke;
+  font-family: sans-serif;
 }
 
-.film{
-    padding: 10px;
+.headerlinks {
+  display: flex;
+  font-size: large;
+}
+
+.fullpage {
+  font-family: sans-serif;
+}
+
+.ticketbestelling {
+  background-color: #ff0000;
+  padding: 5px;
+  color: azure;
+}
+
+.inleiding{
+    
+}
+
+footer {
+  font-family: sans-serif;
+  background-color: grey;
 }
