@@ -15,9 +15,6 @@
         ?>
 
     <div class="fullpage">
-        <div class="ticketbestelling">
-            <h2>Koop Je Tickets</h2>
-        </div>
 
         <div class="inleiding">
             <h3>Welkom bij Annexbios Woerden</h3>

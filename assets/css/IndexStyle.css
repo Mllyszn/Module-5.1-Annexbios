@@ -1,28 +1,36 @@
 header {
-  height: 100px;
+  height: 275px;
   background-color: whitesmoke;
   font-family: sans-serif;
 }
 
-.headerlinks {
-  display: flex;
+.logo {
+  padding: 5px;
+}
+
+.headerinfo {
   font-size: large;
 }
 
-.fullpage {
-  font-family: sans-serif;
-  
+.headerlinks {
+  display: flex;
+  justify-content: right;
+  font-size: large;
 }
 
 .ticketbestelling {
   background-color: #ff0000;
-  padding: 5px;
+  padding: 10px;
   color: azure;
 }
 
-.inleiding{
+.fullpage {
+  font-family: sans-serif;
+}
+
+.inleiding {
   background-color: #ff0000;
-color: azure;
+  color: azure;
 }
 
 footer {
