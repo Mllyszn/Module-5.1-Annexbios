@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: right;
   font-size: large;
+  padding: 3px;
 }
 
 .ticketbestelling {
