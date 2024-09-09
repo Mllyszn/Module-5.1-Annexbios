@@ -11,7 +11,7 @@
 <body>
 
     <?php
-    include('header.php')
+    include('core/header.php')
         ?>
 
     <div class="fullpage">
@@ -22,7 +22,7 @@
     </div>
 
     <?php
-    include('footer.php')
+    include('core/footer.php')
         ?>
 
 </body>

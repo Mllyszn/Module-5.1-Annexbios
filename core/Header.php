@@ -5,14 +5,14 @@
         </div>
 
         <div class="headerlinks">
-            <a href="/core/filmAgenda.php">
-                <h3>Film agenda</h3>
+            <a href="../filmAgenda.php">
+                <h3>Film agenda </h3>
             </a>
-            <a href="/core/vestegingen.php">
-                <h3>Vestegingen</h3>
+            <a href="../vestegingen.php">
+                <h3>Vestegingen </h3>
             </a>
-            <a href="/core/contact.php">
-                <h3>Contact</h3>
+            <a href="../contact.php">
+                <h3>Contact </h3>
             </a>
         </div>
 
