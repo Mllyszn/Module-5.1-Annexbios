@@ -39,7 +39,7 @@ footer {
   background-color: grey;
 } */
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -50,16 +50,16 @@ body {
   background-size: cover;
 }
 
-.logo{
+.logo {
   width: 150px;
   margin-top: 18px;
 }
 
-header{
+header {
   height: 10%;
 }
 
-.header-btn{
+.header-btn {
   text-decoration: none !important;
   border-radius: 30px;
   padding: 7px 20px;
@@ -70,10 +70,30 @@ header{
   font-weight: 600;
 }
 
-.movie-details{
+.movie-details {
   margin: 3% 0;
 }
 
-.left-box{
+.left-box {
+  margin: 15px 0;
+  padding: 20px;
   color: #fff;
+}
+
+.left-box a {
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 15px;
+  margin-top: 15px;
+  color: #fff !important;
+  background: #107afd;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 450px;
+  margin-top: 33px;
+}
+
+.ticket-bestelling-btn{
+  border: 1px solid white !important;
+  background: transparent !important;
 }

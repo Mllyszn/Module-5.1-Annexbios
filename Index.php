@@ -21,6 +21,8 @@
             <div class="col-md-6 left-box">
                 <h1>film 1</h1>
                 <p>film description/lorem ipsum</p>
+                <a href="#" class="ticket-bestelling-btn"><i class="npm i bootstrap-icons"></i>Bestel Tickets</a>
+
             </div>
             <div class="col-md-6"></div>
         </div>
