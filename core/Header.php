@@ -1,3 +1,7 @@
+<?php
+    include('core/db_connect.php');
+?>
+
 <header>
     <div class="headerinfo">
         <div class="logo">
