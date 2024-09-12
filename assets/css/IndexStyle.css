@@ -1,4 +1,4 @@
-header {
+/* header {
   height: 275px;
   background-color: whitesmoke;
   font-family: sans-serif;
@@ -37,4 +37,43 @@ header {
 footer {
   font-family: sans-serif;
   background-color: grey;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/bios_BG.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo{
+  width: 150px;
+  margin-top: 18px;
+}
+
+header{
+  height: 10%;
+}
+
+.header-btn{
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 20px;
+  float: right;
+  margin-top: 15px;
+  color: #fff !important;
+  background: #107afd;
+  font-weight: 600;
+}
+
+.movie-details{
+  margin: 3% 0;
+}
+
+.left-box{
+  color: #fff;
 }
