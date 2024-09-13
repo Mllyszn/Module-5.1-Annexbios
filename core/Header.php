@@ -1,5 +1,5 @@
 <?php
-    include('core/db_connect.php');
+include('core/db_connect.php');
 ?>
 
 <!DOCTYPE html>
@@ -14,8 +14,10 @@
 </head>
 
 <header>
-<div class="container">
+    <div class="container">
         <img src="/assets/img/AnnexBios_Woerden_logo.png" alt="logo">
-        <a href="filmAgenda.php" class="header-btn"><i class="fa-solid fa-user"></i>Film agenda</a>
+        <a href="../contact.php" class="header-btn"><i class="fa-solid fa-user"></i>Contact</a>
+        <a href="../Vestegingen.php" class="header-btn" ><i class="fa-solid fa-user"></i>Vestegingen</a>
+        <a href="../filmAgenda.php" class="header-btn"><i class="fa-solid fa-user"></i>Film agenda</a>
     </div>
 </header>

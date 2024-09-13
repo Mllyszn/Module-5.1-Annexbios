@@ -1,47 +1,16 @@
-/* header {
-  height: 275px;
-  background-color: whitesmoke;
-  font-family: sans-serif;
-}
-
-.logo {
-  padding: 5px;
-}
-
-.headerinfo {
-  font-size: large;
-}
-
-.headerlinks {
-  display: flex;
-  justify-content: right;
-  font-size: large;
-  padding: 3px;
-}
-
-.ticketbestelling {
-  background-color: #ff0000;
-  padding: 10px;
-  color: azure;
-}
-
-.fullpage {
-  font-family: sans-serif;
-}
-
-.inleiding {
-  background-color: #ff0000;
-  color: azure;
-}
-
-footer {
-  font-family: sans-serif;
-  background-color: grey;
-} */
-
 * {
   margin: 0;
   padding: 0;
+}
+
+header {
+  height: 10%;
+  justify-content: space-between;
+
+}
+
+.movie-details {
+  margin: 3% 0;
 }
 
 body {
@@ -50,33 +19,12 @@ body {
   background-size: cover;
 }
 
-.logo {
-  width: 150px;
-  margin-top: 18px;
-}
-
-header {
-  height: 10%;
-}
-
 .inleiding {
+  border-radius: 5px;
+  padding: 7px;
+  height: 315px;
   background-color: #ff0000;
   color: azure;
-}
-
-.header-btn {
-  text-decoration: none !important;
-  border-radius: 30px;
-  padding: 7px 20px;
-  float: right;
-  margin-top: 15px;
-  color: #fff !important;
-  background: #107afd;
-  font-weight: 600;
-}
-
-.movie-details {
-  margin: 3% 0;
 }
 
 .left-box {
@@ -90,7 +38,6 @@ header {
   border-radius: 30px;
   padding: 7px 15px;
   margin-top: 15px;
-  color: #fff !important;
   background: #107afd;
   font-weight: 600;
   display: inline-block;
@@ -98,13 +45,45 @@ header {
   margin-top: 33px;
 }
 
+/* buttons */
+
+.header-btn {
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 20px;
+  float: right;
+  margin-top: 15px;
+  color: #fff !important;
+  background: #107afd;
+  font-weight: 600;
+}
+
+.bekijk-films-btn{
+  border: 3px solid white !important;
+  background: white !important;
+  color: #ff0000;
+}
+
 .ticket-bestelling-btn{
+  color: #fff;
   border: 1px solid white !important;
   background: transparent !important;
 }
 
+/* img */
+
+.logo {
+  width: 150px;
+  margin-top: 18px;
+}
+
+.left-box > img{
+ size: 15px;
+}
+
 .theater-img{
+  padding: 10px;
   height: 350px;
   box-shadow: -4px 4px 5px 0 #000;
-  
+  background: white;
 }
