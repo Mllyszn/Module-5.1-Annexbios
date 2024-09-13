@@ -21,7 +21,7 @@ if ($sqlresult_allMovies->num_rows > 0) {
     while ($row = $sqlresult_allMovies->fetch_assoc()) {
         $allMovies[$row["id"]] = $row;
     }
-    //echo '<pre>'; print_r($allproducts); echo '</pre>'; //print
+    //echo '<pre>'; print_r($allMovies); echo '</pre>'; //print
 }
 
 //Laatste films
@@ -32,7 +32,7 @@ if ($sqlresult_latestMovies->num_rows > 0) {
     while ($row = $sqlresult_latestMovies->fetch_assoc()) {
         $latestMovies[] = $row;
     }
-    //echo '<pre>'; print_r($latestproducts); echo '</pre>'; //print
+    echo '<pre>'; print_r($latestMovies); echo '</pre>'; //print
 }
 
 
