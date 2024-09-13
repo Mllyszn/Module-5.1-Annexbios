@@ -2,26 +2,20 @@
     include('core/db_connect.php');
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/assets/css/indexStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
 <header>
-    <div class="headerinfo">
-        <div class="logo">
-            <img src="/assets/img/AnnexBios_Woerden_logo.png" alt="AnnexBios">
-        </div>
-
-        <div class="headerlinks">
-            <a href="../filmAgenda.php">
-                <h3>Film agenda </h3>
-            </a>
-            <a href="../vestegingen.php">
-                <h3>Vestegingen </h3>
-            </a>
-            <a href="../contact.php">
-                <h3>Contact </h3>
-            </a>
-        </div>
-
-        <div class="ticketbestelling">
-            <h2>Koop Je Tickets</h2>
-        </div>
+<div class="container">
+        <img src="/assets/img/AnnexBios_Woerden_logo.png" alt="logo">
+        <a href="filmAgenda.php" class="header-btn"><i class="fa-solid fa-user"></i>Film agenda</a>
     </div>
 </header>

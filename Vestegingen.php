@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vestegingen</title>
-    <link rel="stylesheet" href="/assets/css/IndexStyle.css">
-</head>
+<?php include('core/Header.php'); ?>
 
 <body>
 
-    <?php
-    include('core/header.php')
-    ?>
-
-
-
-    <?php
-    include('core/footer.php')
-    ?>
-
 </body>
 
-</html>
+<?php include('core/Footer.php'); ?>
