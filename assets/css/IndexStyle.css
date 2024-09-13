@@ -59,6 +59,11 @@ header {
   height: 10%;
 }
 
+.inleiding {
+  background-color: #ff0000;
+  color: azure;
+}
+
 .header-btn {
   text-decoration: none !important;
   border-radius: 30px;
@@ -96,4 +101,10 @@ header {
 .ticket-bestelling-btn{
   border: 1px solid white !important;
   background: transparent !important;
+}
+
+.theater-img{
+  height: 350px;
+  box-shadow: -4px 4px 5px 0 #000;
+  
 }
