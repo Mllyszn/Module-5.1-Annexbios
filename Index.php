@@ -15,7 +15,7 @@
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
                 Ipsum.
             </p>
-            <div class="left-box">
+            <div class="inleiding-btn">
                 <a href="#" class="bekijk-films-btn">BEKIJK DRAAIENDE FILMS
                     <img src="/assets/icons/arrow-right-short.svg" alt="My Happy SVG" />
                 </a>
@@ -23,17 +23,26 @@
         </div>
         <br>
         <div class="row">
+            <div class="col-md-6 info-center">
+                <div class="bios-fotos">
+                    <img src="/assets/img/bios_adres.png" class="adres-img" alt="adres-maps">
+                    <img src="/assets/img/046_2160.jpg" class="theater-img" alt="theater">
+                    <p>
+                        Adres: Wilheminaweg 63
+                        <br>
+                        <br>
+                        Telefoonnummer: 020-12345678
+                    </p>
+                </div>
+            </div>
             <div class="col-md-6 left-box">
                 <h1>film 1</h1>
                 <h3>Welkom bij Annexbios Woerden</h3>
                 <a href="#" class="ticket-bestelling-btn">Bestel Tickets</a>
             </div>
-            <div class="col-md-6 text-center">
-                <div class="bios-foto">
-                    <img src="/assets/img/bios_adres.png" class="adres-img" alt="adres-maps">
-                    <img src="/assets/img/046_2160.jpg" class="theater-img" alt="theater">
-                </div>
-            </div>
+            <div class="all-films">
+           <h3>API/films format</h3>
+        </div>
         </div>
     </div>
 

@@ -3,10 +3,11 @@
   padding: 0;
 }
 
+/* header */
+
 header {
   height: 10%;
-  justify-content: space-between;
-
+  /* justify-content: space-evenly; */
 }
 
 .movie-details {
@@ -28,6 +29,7 @@ body {
 }
 
 .left-box {
+  margin-top: 15px !important;
   margin: 15px 0;
   padding: 20px;
   color: #fff;
@@ -45,6 +47,30 @@ body {
   margin-top: 33px;
 }
 
+.info-center {
+  width: 500px;
+  height: 350px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.row {
+  border-radius: 5px;
+  background-color: #ff0000;
+  color: #fff;
+  height: 350px;
+}
+
+/* footer */
+
+footer{
+  background-color: #7d7878;
+}
+
+.disclaimers{
+  color: #fff;
+}
+
 /* buttons */
 
 .header-btn {
@@ -58,32 +84,54 @@ body {
   font-weight: 600;
 }
 
-.bekijk-films-btn{
+.inleiding-btn {
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 15px;
+  margin-top: 15px;
+  background: white;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 450px;
+  margin-top: 33px;
+}
+
+.bekijk-films-btn {
   border: 3px solid white !important;
   background: white !important;
   color: #ff0000;
 }
 
-.ticket-bestelling-btn{
+.ticket-bestelling-btn {
   color: #fff;
   border: 1px solid white !important;
   background: transparent !important;
 }
 
-/* img */
+/* logo */
 
 .logo {
   width: 150px;
   margin-top: 18px;
 }
 
-.left-box > img{
- size: 15px;
+/* img */
+
+.left-box > img {
+  size: 15px;
 }
 
-.theater-img{
+.bios-fotos {
+  display: flex;
+}
+
+.theater-img {
   padding: 10px;
   height: 350px;
-  box-shadow: -4px 4px 5px 0 #000;
-  background: white;
 }
+
+.adres-img {
+  padding: 10px;
+  height: 350px;
+}
+
