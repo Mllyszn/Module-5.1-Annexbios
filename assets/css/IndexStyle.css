@@ -21,6 +21,7 @@ body {
 }
 
 .inleiding {
+  font-size: 18px;
   border-radius: 5px;
   padding: 7px;
   height: 315px;
@@ -63,12 +64,40 @@ body {
 
 /* footer */
 
-footer{
+footer {
+  position: relative;
   background-color: #7d7878;
+  color: #fff;
 }
 
-.disclaimers{
-  color: #fff;
+.fbox-flex{
+  display: flex;
+  margin-left: 733px;
+}
+
+.fbox-flex > div{
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.fbox-left{
+}
+
+.fbox-center{
+}
+
+.fbox-right{
+}
+
+.disclaimers {
+  color: #fff !important;
+}
+
+.underlinks{
+  color: #fff !important;
+  text-decoration: none !important;
+
 }
 
 /* buttons */
@@ -97,6 +126,7 @@ footer{
 }
 
 .bekijk-films-btn {
+  text-decoration: none !important;
   border: 3px solid white !important;
   background: white !important;
   color: #ff0000;
@@ -108,6 +138,10 @@ footer{
   background: transparent !important;
 }
 
+.all-films {
+  color: white;
+}
+
 /* logo */
 
 .logo {
@@ -117,12 +151,12 @@ footer{
 
 /* img */
 
-.left-box > img {
-  size: 15px;
-}
-
 .bios-fotos {
   display: flex;
+}
+
+.bios-fotos > p {
+  margin: 10px;
 }
 
 .theater-img {
@@ -134,4 +168,3 @@ footer{
   padding: 10px;
   height: 350px;
 }
-
