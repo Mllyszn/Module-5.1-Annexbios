@@ -3,13 +3,6 @@
   padding: 0;
 }
 
-/* header */
-
-header {
-  height: 10%;
-  /* justify-content: space-evenly; */
-}
-
 .movie-details {
   margin: 3% 0;
 }
@@ -62,56 +55,7 @@ body {
   height: 350px;
 }
 
-/* footer */
-
-footer {
-  position: relative;
-  background-color: #7d7878;
-  color: #fff;
-}
-
-.fbox-flex{
-  display: flex;
-  margin-left: 733px;
-}
-
-.fbox-flex > div{
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.fbox-left{
-}
-
-.fbox-center{
-}
-
-.fbox-right{
-}
-
-.disclaimers {
-  color: #fff !important;
-}
-
-.underlinks{
-  color: #fff !important;
-  text-decoration: none !important;
-
-}
-
 /* buttons */
-
-.header-btn {
-  text-decoration: none !important;
-  border-radius: 30px;
-  padding: 7px 20px;
-  float: right;
-  margin-top: 15px;
-  color: #fff !important;
-  background: #107afd;
-  font-weight: 600;
-}
 
 .inleiding-btn {
   text-decoration: none !important;
