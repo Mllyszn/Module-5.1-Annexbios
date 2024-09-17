@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
     <div class="container movie-details">
         <div class="inleiding">
             <h3>Welkom bij Annexbios Woerden</h3>
@@ -32,7 +31,7 @@
                 Betaald parkeren kan in de buurt van de bioscoop en de bussen stoppen op loopafstand van de bioscoop.
             </p>
             <div class="inleiding-btn">
-                <a href="#" class="bekijk-films-btn">BEKIJK DRAAIENDE FILMS
+                <a href="filmAgenda.php" class="bekijk-films-btn">BEKIJK DRAAIENDE FILMS
                     <img src="/assets/icons/arrow-right-short.svg" alt="My Happy SVG" />
                 </a>
             </div>
@@ -54,7 +53,7 @@
         </div>
         <div class="col-md-6 left-box">
             <H2>Film Agenda</H2>
-            <a href="#" class="ticket-bestelling-btn">Bestel Tickets</a>
+            <a href="bestelPagina.php" class="ticket-bestelling-btn">Bestel Tickets</a>
         </div>
         <div class="all-films">
             <h3>API/films format</h3>
