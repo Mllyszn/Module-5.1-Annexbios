@@ -1,5 +1,22 @@
 <?php include('core/Header.php'); ?>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="<?= BASEURL ?>assets/icons/favicon.ico">
+    <!-- header CSS -->
+    <link rel="stylesheet" href="<?= BASEURL ?>assets/css/header.css">
+    <!-- main CSS -->
+    <link rel="stylesheet" href="<?= BASEURL ?>assets/css/indexStyle.css">
+    <!-- footer CSS -->
+    <link rel="stylesheet" href="<?= BASEURL ?>assets/css/footer.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
 <body>
 
     <div class="container movie-details">
@@ -36,7 +53,7 @@
             </div>
         </div>
         <div class="col-md-6 left-box">
-            <h2>Welkom bij Annexbios Woerden</h2>
+            <H2>Film Agenda</H2>
             <a href="#" class="ticket-bestelling-btn">Bestel Tickets</a>
         </div>
         <div class="all-films">

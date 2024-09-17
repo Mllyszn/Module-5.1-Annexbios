@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.contact {
+  text-align: center;
+  color: white !important;
+}
+
+.Qform {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.submit-btn {
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 20px;
+  margin-top: 15px;
+  margin: 15px;
+  color: #fff !important;
+  background: #ff0000;
+  font-weight: 500;
+}
+
+textarea {
+  resize: none;
+}

@@ -1,5 +1,8 @@
 footer {
-  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
   background-color: #7d7878;
   color: #fff;
 }
@@ -26,6 +29,7 @@ footer {
 
 .disclaimers {
   color: #fff !important;
+  background: transparent !important;
 }
 
 .underlinks {

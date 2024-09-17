@@ -10,17 +10,17 @@
             <H5>info rechts</H5>
         </div>
     </div>
+    <div class="disclaimers">
+        <H6>
+            <a href="#Voorwaarden" class="underlinks">Voorwaarden</a>
+            |
+            <a href="#Privacy beleid" class="underlinks">Privacy beleid</a>
+            |
+            <a href="#Cookies" class="underlinks">Cookie disclaimer</a>
+            |
+        </H6>
+    </div>
 </footer>
-<div class="disclaimers">
-    <H6>
-        <a href="#Voorwaarden" class="underlinks">Voorwaarden</a>
-        |
-        <a href="#Privacy beleid" class="underlinks">Privacy beleid</a>
-        |
-        <a href="#Cookies" class="underlinks">Cookie disclaimer</a>
-        |
-    </H6>
-</div>
 
 </html>
 <?php

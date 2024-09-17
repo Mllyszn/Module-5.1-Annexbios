@@ -1,7 +1,62 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.intro > h1{
-    color: white;
+a {
+  text-decoration: none !important;
+}
+
+.intro {
+  margin: 10px;
+  color: white !important;
+}
+
+.intro > H1,
+H4 {
+  text-align: center;
+}
+
+.fbox-vest {
+  font-size: 18px;
+  display: flex;
+}
+
+.left {
+  margin-left: 300px;
+}
+
+.center {
+  margin-left: 250px;
+}
+
+.right {
+  margin-left: 250px;
+}
+
+.WO {
+  color: #ff0000;
+}
+
+.MF {
+  color: #3f87a7;
+}
+
+.LR {
+  color: #3971e5;
+}
+
+.BH {
+  color: #614274;
+}
+
+.MA {
+  color: #832427;
+}
+
+.LE {
+  color: #a5703f;
+}
+
+.BR {
+  color: #7f8d45;
 }
