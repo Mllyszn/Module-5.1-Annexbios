@@ -16,6 +16,8 @@ if ($con->connect_errno) {
 }
 
 //Totale films in database opgeteld
+include("fetch_local_movies.php");
+//Totale films in database opgeteld
 $count = $con->query("SELECT COUNT(*) FROM `films`");
 $countrow = mysqli_fetch_row($count);
 $totalDbMovies = $countrow[0];
@@ -25,10 +27,41 @@ $totalApiMovies = count($obj);
 
 $filmRow = $totalDbMovies;
 
-while($filmRow < $totalApiMovies){
-    //while($obj[$filmRow] =)
-    if($filmRow + 1 == $obj[$filmRow]['id'] ) //if current fetching movie is equal to the movie in API
+// $i = 1;
+// while($i <= $totalApiMovies){
+//     if($obj[$filmRow]['id'] == $totalApiMovies){
+//         if(!array_key_exists($i, $allMovies)){
+//             $id = $obj[$i]['id'];
+//             $title = $obj[$i]['title'];
+//             $description = $obj[$i]['description'];
+//             $rating = $obj[$i]['rating'];
+//             $duration = $obj[$i]['duration'];
+//             $release_date = $obj[$i]['release_date'];
+//             $age_restriction = $obj[$i]['age_restriction'];
+//             $banner_path = $obj[$i]['banner_path'];
+//             $price = $obj[$i]['price'];
+//             $actors = 'empty';
+//             $sql = "INSERT INTO films VALUES ('$id', '$title', '$description', '$rating', '$duration', '$release_date', '$age_restriction', '$banner_path', '$price', '$actors')";
+        
+//              $insertqry = $con->prepare($sql);
+//              if($insertqry === false) {
+//               echo mysqli_error($con);
+//               } else{
+//              if($insertqry->execute()){
+//                 echo "OK, opdracht uitgevoerd";
+//              }
+//              $insertqry->close();
+//                     }
+//         }
+//         $i++;
+//     } else break;
+// }
 
+while($filmRow < $totalApiMovies){
+    if($obj[$filmRow]['id'] > $totalApiMovies)
+    break;
+
+    if($filmRow + 1 == $obj[$filmRow]['id'] ) //if current fetching movie is equal to the movie in API
       if($obj[$filmRow] == true){
         $id = $obj[$filmRow]['id'];
         $title = $obj[$filmRow]['title'];
@@ -53,19 +86,9 @@ while($filmRow < $totalApiMovies){
                 }
 
         $filmRow++;
+        include("fetch_local_movies.php");
          } 
 
-}
-
-//Alle films in array
-$sqlresult_allMovies = $con->query("SELECT id, title, description, rating, duration, release_date, age_restriction, banner_path, price, actors FROM `films`");
-$allMovies = [];
-
-if ($sqlresult_allMovies->num_rows > 0) {
-    while ($row = $sqlresult_allMovies->fetch_assoc()) {
-        $allMovies[$row["id"]] = $row;
-    }
-    //echo '<pre>'; print_r($allMovies); echo '</pre>'; //print
 }
 
 //Laatste films
