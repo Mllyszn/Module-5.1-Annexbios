@@ -56,8 +56,8 @@
             <H2>Film Agenda</H2>
             <a href="bestelPagina.php" class="ticket-bestelling-btn">Bestel Tickets</a>
         </div>
-        <div class="F-agenda">
-            <?php include('filmAgenda.php'); ?>
+        <div class="F-display">
+            <?php include('core/films_display.php'); ?>
         </div>
     </div>
 </body>
