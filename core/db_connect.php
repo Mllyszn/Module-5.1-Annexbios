@@ -2,6 +2,9 @@
 session_start();
 include('api_connect.php');
 
+ini_set('display_errors', 0);
+error_reporting(E_ALL & ~E_NOTICE & E_WARNING);
+
 //Database connection
 $dbhost = "localhost";
 $dbuser = "root";
@@ -28,9 +31,9 @@ $totalApiMovies = count($obj);
 $filmRow = $totalDbMovies;
 
 // $i = 1;
-// while($i <= $totalApiMovies){
+// while($i < $totalApiMovies){
+// if(!array_key_exists($i, $allMovies)){
 //     if($obj[$filmRow]['id'] == $totalApiMovies){
-//         if(!array_key_exists($i, $allMovies)){
 //             $id = $obj[$i]['id'];
 //             $title = $obj[$i]['title'];
 //             $description = $obj[$i]['description'];
@@ -54,7 +57,7 @@ $filmRow = $totalDbMovies;
 //                     }
 //         }
 //         $i++;
-//     } else break;
+//     }
 // }
 
 while($filmRow < $totalApiMovies){
@@ -105,15 +108,14 @@ if ($sqlresult_latestMovies->num_rows > 0) {
 define("BASEURL", "http://localhost/");
 define("BASEURL_CMS", "http://localhost/admin/");
 
-
-echo "Filmrow";
-echo $filmRow;
-echo "total DB movies";
-echo $totalDbMovies; 
-echo "</pre>";
-echo "total API movies";
-echo $totalApiMovies; 
-echo "</pre>";
+// echo "Filmrow";
+// echo $filmRow;
+// echo "total DB movies";
+// echo $totalDbMovies; 
+// echo "</pre>";
+// echo "total API movies";
+// echo $totalApiMovies; 
+// echo "</pre>";
 
 
 
