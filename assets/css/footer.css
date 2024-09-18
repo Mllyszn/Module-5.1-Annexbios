@@ -1,10 +1,16 @@
 footer {
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  position: fixed;
-  background-color: #7d7878;
-  color: #fff;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5439425770308124) 25%,
+    rgba(36, 0, 0, 1) 56%
+  );
+  color: white;
+  text-align: center;
 }
 
 .fbox-flex {

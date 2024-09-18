@@ -1,5 +1,6 @@
 header {
   height: 10%;
+  background-image: linear-gradient(#530e17, black);
 }
 
 .header-btn {
@@ -10,6 +11,6 @@ header {
   margin-top: 15px;
   margin: 15px;
   color: #fff !important;
-  background: #107afd;
+  background: #ff0000;
   font-weight: 600;
 }

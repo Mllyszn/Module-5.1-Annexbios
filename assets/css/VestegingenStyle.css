@@ -18,15 +18,21 @@ H4 {
 
 .fbox-vest {
   font-size: 18px;
+  margin-left: 350px;
   display: flex;
-}
-
-.left {
-  margin-left: 300px;
+  flex-wrap: wrap;
+  row-gap: 4px;
+  text-align: center;
 }
 
 .center {
   margin-left: 250px;
+}
+
+.center > img{
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
 }
 
 .right {
