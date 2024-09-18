@@ -1,13 +1,13 @@
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 100%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.5439425770308124) 25%,
-    rgba(36, 0, 0, 1) 56%
+    rgba(36, 0, 0, 1) 55%
   );
   color: white;
   text-align: center;
@@ -21,7 +21,7 @@ a {
 
 .fbox-flex {
   display: flex;
-  margin-left: 733px;
+  margin-left: 666px;
   text-decoration: none !important;
 }
 
