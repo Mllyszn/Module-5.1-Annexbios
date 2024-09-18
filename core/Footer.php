@@ -1,13 +1,17 @@
 <footer>
     <div class="fbox-flex">
         <div class="fbox-left">
-            <H5>info links</H5>
+            <H3>Navigeer</H3>
+            <H5><a href="vestegingen.php">Vestegingen</a></H5>
+            <H5><a href="contact.php">Contact</a></H5>
         </div>
         <div class="fbox-center">
-            <H5>info midden</H5>
+            <H3>Telefoonnummer:</H3>
+            <H5>020-12345678</H5>
         </div>
         <div class="fbox-right">
-            <H5>info rechts</H5>
+        <H3>Adres:</H3>
+        <H5>Wilheminaweg 63</H5>
         </div>
     </div>
     <div class="disclaimers">

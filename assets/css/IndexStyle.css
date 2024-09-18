@@ -64,6 +64,7 @@ body {
   border-radius: 30px;
   padding: 7px 15px;
   margin-top: 15px;
+  color: #ff0000 !important;
   background: white;
   font-weight: 600;
   display: inline-block;
@@ -75,7 +76,7 @@ body {
   text-decoration: none !important;
   border: 3px solid white !important;
   background: white !important;
-  color: #ff0000;
+  color: #ff0000 !important;
 }
 
 .ticket-bestelling-btn {

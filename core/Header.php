@@ -10,7 +10,7 @@ include('core/db_connect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <!-- favicon -->
-    <link rel="icon" href="<?= BASEURL ?>assets/icons/favicon.ico">
+    <link rel="icon" href="<?= BASEURL ?>../assets/icons/favicon.ico">
     <!-- header CSS -->
     <link rel="stylesheet" href="<?= BASEURL ?>assets/css/header.css">
     <!-- main CSS -->

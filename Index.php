@@ -42,12 +42,13 @@
                 <div class="bios-fotos">
                     <img src="/assets/img/bios_adres.png" class="adres-img" alt="adres-maps">
                     <img src="/assets/img/046_2160.jpg" class="theater-img" alt="theater">
-                    <p>
-                        Adres: Wilheminaweg 63
+                    <div class="info-text">
+                        <H3>Adres:</H3>
+                        <H5>Wilheminaweg 63</H5>
                         <br>
-                        <br>
-                        Telefoonnummer: 020-12345678
-                    </p>
+                        <H3>Telefoonnummer:</H3>
+                        <H5>020-12345678</H5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,8 +56,8 @@
             <H2>Film Agenda</H2>
             <a href="bestelPagina.php" class="ticket-bestelling-btn">Bestel Tickets</a>
         </div>
-        <div class="all-films">
-            <h3>API/films format</h3>
+        <div class="F-agenda">
+            <?php include('filmAgenda.php'); ?>
         </div>
     </div>
 </body>
