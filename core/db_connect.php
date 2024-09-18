@@ -105,12 +105,6 @@ if ($sqlresult_latestMovies->num_rows > 0) {
 define("BASEURL", "http://localhost/");
 define("BASEURL_CMS", "http://localhost/admin/");
 
-function prettyDump($var)
-{
-    echo "<pre>";
-    var_dump($var);
-    echo "</pre>";
-}
 
 echo "Filmrow";
 echo $filmRow;
