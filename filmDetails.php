@@ -9,7 +9,7 @@ $currentDisplayingMovie = $_GET['movie'];
 
 <body>
     <div class="film-title">
-        <H1>(Film Titel)</H1>
+        <H1><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></H1>
     </div>
 
     <div class="flex-container">
