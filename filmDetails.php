@@ -1,5 +1,9 @@
 <?php include('core/Header.php');
 $currentDisplayingMovie = $_GET['movie'];
+
+if(!array_key_exists($currentDisplayingMovie, $allMovies)){
+    return;
+}
 ?>
 
 
