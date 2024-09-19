@@ -13,6 +13,15 @@
   display: flex;
 }
 
+.ticket-btn{
+  margin-left: 75px;
+  height: 50px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background: transparent;
+}
+
 .banner {
   margin: 22px;
   height: 666px;
