@@ -16,8 +16,7 @@ $amount = $totalDbMovies;
                <div class="card-body">
                   <h6 class="card-title"><?php echo $allMovies[$x + 1]["title"] ?></h6>
                   <p class="card-text">Rating <?php echo $allMovies[$x + 1]["rating"] ?></p>
-                  <p class="card-text"><?php echo $allMovies[$x + 1]["duration"] ?></p>
-                  <!-- <a href="filmDetails.php?film=<?php echo $allMovies[$x + 1]["id"] ?>" class="detail-btn">Film Details</a> -->
+                  <!-- <p class="card-text"><?php echo $allMovies[$x + 1]["duration"] ?></p> -->
                </div>
             </div>
          </div>

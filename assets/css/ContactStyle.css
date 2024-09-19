@@ -3,6 +3,7 @@ body {
 }
 
 .contact {
+  margin: 10px;
   text-align: center;
   color: white !important;
 }
