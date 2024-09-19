@@ -24,9 +24,8 @@ if(!array_key_exists($currentDisplayingMovie, $allMovies)){
             </div>
         </div>
         <div class="right-box">
-            <H5>Details</h5>
             <div class="card-body">
-                <h6 class="card-title"><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></h6>
+                <!-- <h1 class="card-title"><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></h1> -->
                 <p class="card-text">Rating <?php echo $allMovies[$currentDisplayingMovie]["rating"] ?></p>
                 <p class="card-text"><?php echo $allMovies[$currentDisplayingMovie]["duration"] ?></p>
             </div>

@@ -20,6 +20,10 @@ body{
     width: 160px;
 }
 
+.card-title{
+    font-size: 15px;
+}
+
 .card-text{
     font-weight: 600;
 }

@@ -6,7 +6,7 @@
 
 .card-body {
   font-weight: 600;
-  margin: 5px;
+  margin: 15px;
 }
 
 .movie-display {
@@ -17,7 +17,7 @@
   margin: 22px;
   height: 666px;
   width: 300px;
-  background: white;
+  /* background: white; */
   margin-bottom: 75px;
 }
 
