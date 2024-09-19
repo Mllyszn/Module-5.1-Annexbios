@@ -20,7 +20,7 @@ if(!array_key_exists($currentDisplayingMovie, $allMovies)){
         <div>
             <div class="banner">
                 <img src="<?php echo $allMovies[$currentDisplayingMovie]["banner_path"] ?>">
-                <h6 class="card-title"><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></h6>
+                <!-- <h6 class="card-title"><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></h6> -->
             </div>
         </div>
         <div class="right-box">
