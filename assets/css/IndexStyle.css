@@ -86,9 +86,16 @@ body {
 }
 
 .ticket-bestelling-btn {
+  margin-left: 333px;
+  padding: 5px;
+  height: 35px;
+  width: 125px;
+  text-align: center;
   color: #fff;
-  border: 1px solid white !important;
-  background: transparent !important;
+  border-radius: 8px;
+  background: red !important;
+  margin-bottom: 125px;
+  font-weight: 600;
 }
 
 .all-films {

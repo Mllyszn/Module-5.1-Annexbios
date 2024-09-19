@@ -54,10 +54,13 @@
         </div>
         <div class="col-md-6 left-box">
             <H2>Film Agenda</H2>
-            <a href="bestelPagina.php" class="ticket-bestelling-btn">Bestel Tickets</a>
         </div>
+        <!-- <div class="categories"></div> -->
         <div class="F-display">
             <?php include('core/films_display.php'); ?>
+        </div>
+        <div class="ticket-bestelling-btn">
+        <a href="bestelPagina.php">Bestel Tickets</a>
         </div>
     </div>
 </body>
