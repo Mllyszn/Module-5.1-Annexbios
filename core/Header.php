@@ -21,7 +21,7 @@ include('core/db_connect.php');
 
 <header>
     <div class="container">
-        <a href="../Index.php"><img src="<?= BASEURL ?>/assets/img/AnnexBios_Woerden_logo.png" alt="logo"></a>
+        <a href="../../"><img src="<?= BASEURL ?>/assets/img/AnnexBios_Woerden_logo.png" alt="logo"></a>
         <a href="../contact.php" class="header-btn"><i class="fa-solid fa-user"></i>Contact</a>
         <a href="../Vestegingen.php" class="header-btn"><i class="fa-solid fa-user"></i>Vestegingen</a>
         <a href="../filmAgenda.php" class="header-btn"><i class="fa-solid fa-user"></i>Film agenda</a>

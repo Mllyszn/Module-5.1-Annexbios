@@ -7,9 +7,9 @@ error_reporting(E_ALL & ~E_NOTICE & E_WARNING);
 
 //Database connection
 $dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "annexbios_woerden_db";
+$dbuser = "bioswo2_annex";
+$dbpass = "w3eMY5GCY9JuZ8Yuf6fD";
+$dbname = "bioswo2_annex";
 
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
@@ -59,7 +59,6 @@ while($filmRow < $totalApiMovies){
                 }
 
         $filmRow++;
-        include("fetch_local_movies.php");
          } 
 
 }
