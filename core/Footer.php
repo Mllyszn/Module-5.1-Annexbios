@@ -10,8 +10,8 @@
             <H5>020-12345678</H5>
         </div>
         <div class="fbox-right">
-        <H3>Adres:</H3>
-        <H5>Wilheminaweg 63</H5>
+            <H3>Adres:</H3>
+            <H5>Wilheminaweg 63</H5>
         </div>
     </div>
     <div class="disclaimers">

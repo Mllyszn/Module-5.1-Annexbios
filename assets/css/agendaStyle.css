@@ -22,3 +22,7 @@ body{
 .card-text{
     font-weight: 600;
 }
+
+.details-btn{
+    color: black !important;
+}

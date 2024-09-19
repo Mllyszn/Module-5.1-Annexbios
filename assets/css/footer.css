@@ -3,12 +3,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.5439425770308124) 25%,
-    rgba(36, 0, 0, 1) 55%
-  );
+  background-image: linear-gradient(#1F0410,  #5c5858);
   color: white;
   text-align: center;
   text-decoration: none !important;
@@ -20,8 +15,9 @@ a {
 }
 
 .fbox-flex {
+  opacity: 100% !important;
   display: flex;
-  margin-left: 666px;
+  justify-content: center;
   text-decoration: none !important;
 }
 

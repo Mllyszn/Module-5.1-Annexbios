@@ -51,6 +51,11 @@ body {
   margin: 10px;
 }
 
+.info-text {
+  margin-top: 15px;
+  text-align: center;
+}
+
 .row {
   border-radius: 5px;
   background-color: #ff0000;

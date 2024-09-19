@@ -1,6 +1,7 @@
 <?php include('core/Header.php'); ?>
 
 <head>
+    <title>Contact</title>
     <link rel="stylesheet" href="assets/css/contactStyle.css">
 </head>
 
