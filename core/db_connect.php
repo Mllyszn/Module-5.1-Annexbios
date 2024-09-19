@@ -7,9 +7,9 @@ error_reporting(E_ALL & ~E_NOTICE & E_WARNING);
 
 //Database connection
 $dbhost = "localhost";
-$dbuser = "bioswo2_annex";
-$dbpass = "w3eMY5GCY9JuZ8Yuf6fD";
-$dbname = "bioswo2_annex";
+$dbuser = "";
+$dbpass = "";
+$dbname = "annexbios_woerden_db";
 
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
