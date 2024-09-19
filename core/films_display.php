@@ -9,7 +9,7 @@ $amount = $totalDbMovies;
 <?php for ($x = 0; $x <= $amount - 1; $x++): ?>
 
    <div class="films">
-      <a class="details-btn" href="/filmDetails.php">
+      <a class="details-btn" href="filmDetails.php?movie=<?php echo $allMovies[$x + 1]["id"] ?>">
          <div class="col-4 mb-3 movie-display">
             <div class="card banner">
                <img src="<?php echo $allMovies[$x + 1]["banner_path"] ?>" width="158" , height="250">

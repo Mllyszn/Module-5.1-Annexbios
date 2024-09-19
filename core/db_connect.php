@@ -108,6 +108,8 @@ if ($sqlresult_latestMovies->num_rows > 0) {
 define("BASEURL", "http://localhost/");
 define("BASEURL_CMS", "http://localhost/admin/");
 
+//debug
+
 // echo "Filmrow";
 // echo $filmRow;
 // echo "total DB movies";
@@ -116,6 +118,3 @@ define("BASEURL_CMS", "http://localhost/admin/");
 // echo "total API movies";
 // echo $totalApiMovies; 
 // echo "</pre>";
-
-
-
