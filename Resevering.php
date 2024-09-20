@@ -1,7 +1,7 @@
 <?php include('core/Header.php'); ?>
 
 <head>
-<title>Resevering</title>
+    <title>Resevering</title>
 </head>
 
 <body>

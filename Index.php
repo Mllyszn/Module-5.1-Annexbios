@@ -60,7 +60,7 @@
             <?php include('core/films_display.php'); ?>
         </div>
         <div class="ticket-bestelling-btn">
-        <a href="bestelPagina.php">Bestel Tickets</a>
+            <a href="bestelPagina.php">Bestel Tickets</a>
         </div>
     </div>
 </body>

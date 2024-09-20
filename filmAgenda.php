@@ -1,7 +1,7 @@
 <?php include('core/Header.php'); ?>
 
 <head>
-<title>Film Agenda</title>
+    <title>Film Agenda</title>
 </head>
 
 <h2 class="intro">Draaiende films</h2>
