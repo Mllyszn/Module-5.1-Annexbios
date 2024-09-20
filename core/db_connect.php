@@ -2,12 +2,12 @@
 session_start();
 include('api_connect.php');
 
-ini_set('display_errors', 0);
-error_reporting(E_ALL & ~E_NOTICE & E_WARNING);
+// ini_set('display_errors', 0);
+// error_reporting(E_ALL & ~E_NOTICE & E_WARNING);
 
 //Database connection
 $dbhost = "localhost";
-$dbuser = "";
+$dbuser = "root";
 $dbpass = "";
 $dbname = "annexbios_woerden_db";
 
