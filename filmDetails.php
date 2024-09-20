@@ -25,9 +25,12 @@ if (!array_key_exists($currentDisplayingMovie, $allMovies)) {
         </div>
         <div class="right-box">
             <div class="card-body">
-                <!-- <h1 class="card-title"><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></h1> -->
                 <p class="card-text">Rating <?php echo $allMovies[$currentDisplayingMovie]["rating"] ?></p>
-                <p class="card-text"><?php echo $allMovies[$currentDisplayingMovie]["duration"] ?></p>
+                <p class="card-text">Tijd <?php echo $allMovies[$currentDisplayingMovie]["duration"] ?></p>
+                <!-- <p class="card-text">Release datum <?php echo $allMovies[$currentDisplayingMovie]["release_date"] ?></p> -->
+                <p class="card-text">leeftijdsbeperking <?php echo $allMovies[$currentDisplayingMovie]["age_restriction"] ?></p>
+    
+
                 <br>
                 <div class="contactform">
                     <!-- <?php if (isset($_POST['add'])) {
