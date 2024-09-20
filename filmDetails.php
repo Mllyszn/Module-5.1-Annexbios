@@ -28,11 +28,24 @@ if (!array_key_exists($currentDisplayingMovie, $allMovies)) {
                 <!-- <h1 class="card-title"><?php echo $allMovies[$currentDisplayingMovie]["title"] ?></h1> -->
                 <p class="card-text">Rating <?php echo $allMovies[$currentDisplayingMovie]["rating"] ?></p>
                 <p class="card-text"><?php echo $allMovies[$currentDisplayingMovie]["duration"] ?></p>
-                <br>
-                <div class="ticket-btn">
-                    <a href="bestelPagina.php">
-                        <p>Bestel Tickets</p>
-                    </a>
+
+                <div class="contactform">
+                    <!-- <?php if (isset($_POST['add'])) {
+                        echo "<p style='color: green'>UW FORMULIER IS VERSTUURD!</p>";
+                    } ?> -->
+                    <form action="bestelPagina.php">
+
+                        <label for="vnaam">Voornaam</label>
+                        <input type="text" id="vnaam" name="vnaam" placeholder="Uw voornaam.." required>
+
+                        <label for="anaam">Achternaam</label>
+                        <input type="text" id="anaam" name="anaam" placeholder="Uw achternaam.." required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Uw e-mail.." required>
+                        <br>
+                        <input type="submit" class="ticket-btn" value="Bestel tickets" name="add">
+                    </form>
                 </div>
             </div>
         </div>

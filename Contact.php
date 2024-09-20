@@ -9,13 +9,20 @@
     <div class="contact">
         <H1>Contact</H1>
     </div>
+
     <div class="Qform">
-        <form action="/index.php">
-            <textarea name="vraag" id="Q" rows="3" cols="75"
-             placeholder="Schrijf hier je vraag"></textarea>
-            <br>
-            <input class="submit-btn" type="submit" value="Stuur door">
+        <div class="contactform">
+            <form method="post">
+
+                <textarea name="vraag" id="Q" rows="3" cols="75" placeholder="Schrijf hier je vraag"></textarea>
+                <br>
+                <input class="submit-btn" type="submit" value="Stuur door" name="add">
             </form>
+            <?php if (isset($_POST['add'])) {
+                echo "<p style='color: green' class='vali'>Uw vraag is doorgestuurd! Dank u wel voor uw samenwerking</p>";
+            } ?>
+        </div>
+
     </div>
 </body>
 

@@ -41,7 +41,6 @@
             <div class="col-md-6 info-center">
                 <div class="bios-fotos">
                     <img src="/assets/img/bios_adres.png" class="adres-img" alt="adres-maps">
-                    <img src="/assets/img/046_2160.jpg" class="theater-img" alt="theater">
                     <div class="info-text">
                         <H3>Adres:</H3>
                         <H5>Wilheminaweg 63</H5>
@@ -49,6 +48,7 @@
                         <H3>Telefoonnummer:</H3>
                         <H5>020-12345678</H5>
                     </div>
+                    <img src="/assets/img/046_2160.jpg" class="theater-img" alt="theater">
                 </div>
             </div>
         </div>

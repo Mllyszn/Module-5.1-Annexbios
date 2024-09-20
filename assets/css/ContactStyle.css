@@ -28,3 +28,8 @@ body {
 textarea {
   resize: none;
 }
+
+.vali{
+  font-size: 22px;
+  font-weight: 600;
+}

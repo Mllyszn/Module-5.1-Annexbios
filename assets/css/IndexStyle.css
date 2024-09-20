@@ -52,7 +52,7 @@ body {
 }
 
 .info-text {
-  margin-top: 15px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -128,3 +128,5 @@ body {
   padding: 10px;
   height: 350px;
 }
+
+/* responsive */
